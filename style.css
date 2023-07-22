@@ -60,4 +60,19 @@ button{
     background-color: aqua;
     background-image: url(img/Rectangle\ 724.png);
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+  width: 850px;
+  font-size: 64px;
+  font-weight: 600;
+  color: white;
 }
